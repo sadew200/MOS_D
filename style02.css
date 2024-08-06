@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
 body{
-    background-image: url(../img/HomeB.jpg);
+    background-image: url(HomeB.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

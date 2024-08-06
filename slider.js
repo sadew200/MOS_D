@@ -133,10 +133,10 @@ function displayBurgers(){
 let i=0;
 let ImgArray=[]
 
-ImgArray[0]=`../img/offer.jpg`
-ImgArray[1]=`../img/offer01.jpg`
-ImgArray[2]=`../img/offer02.jpeg`
-ImgArray[3]=`../img/offer03.jpg`
+ImgArray[0]=`offer.jpg`
+ImgArray[1]=`offer01.jpg`
+ImgArray[2]=`offer02.jpeg`
+ImgArray[3]=`offer03.jpg`
 
 function changeIMG(){
     document.imgc.src=ImgArray[i]

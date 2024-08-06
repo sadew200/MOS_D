@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Danfo&family=Major+Mono+Display&family=Pacifico&family=Poetsen+One&family=Satisfy&family=Sedan+SC&family=Shadows+Into+Light&display=swap');
 
 body{
-    background-image: url("../img/co.jpg");
+    background-image: url(co.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
