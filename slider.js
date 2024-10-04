@@ -173,7 +173,7 @@ L:for(let i=0; i<46; i++){
         if(localStorage.length==0){
             arr.push(`<td> </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/${arImg[i].src.substring(25)}" class="card-img-top" alt="..." style="height: 240px;">
+                    <img src=arImg[i].src.substring(25) class="card-img-top" alt="..." style="height: 240px;">
                     <div class="card-body style="height: ;">
                       <h2 class="card-title" style="font-style: oblique; font-weight: 900; color: red; text-decoration: underline;">Burgers</h2>
                       <h5 style="font-weight: 900;"><pre class="card-text">${ar[i].textContent}</pre></h5>
@@ -200,7 +200,7 @@ L:for(let i=0; i<46; i++){
             console.log(value);
             value.push(`<td> </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/${arImg[i].src.substring(25)}" class="card-img-top" alt="..." style="height: 240px;">
+                    <img src=arImg[i].src.substring(25) class="card-img-top" alt="..." style="height: 240px;">
                     <div class="card-body style="height: ;">
                       <h2 class="card-title" style="font-style: oblique; font-weight: 900; color: red; text-decoration: underline;">Burgers</h2>
                       <h5 style="font-weight: 900;"><pre class="card-text">${ar[i].textContent}</pre></h5>
